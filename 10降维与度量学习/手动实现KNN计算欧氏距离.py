@@ -10,7 +10,6 @@ X = iris.data
 y = iris.target
 X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=2003)
 
-
 def euc_dis(instance1, instance2):
     """
     计算两个样本instance1和instance2之间的欧式距离
@@ -20,7 +19,6 @@ def euc_dis(instance1, instance2):
     # TODO
     dist = np.sqrt(np.sum((instance1-instance2)**2))
     return dist
-    
     
 def knn_classify(X, y, testInstance, k):
     """
@@ -39,7 +37,7 @@ def knn_classify(X, y, testInstance, k):
    # count.most_common()[0][0])是票数最多的
     return count.most_common()[0][0]
 
-# 预测结果。    
+# 预测结果   
 predictions = [knn_classify(X_train, y_train, data, 3) for data in X_test]
 correct = np.count_nonzero((predictions==y_test)==True)
 print ("Accuracy is: %.3f" %(correct/len(X_test)))
