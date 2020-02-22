@@ -19,3 +19,8 @@ clf.fit(x,y)
 
 # 输出最好的参数以及准确率
 print("best score is: %.2f"%clf.best_score_,"best k: ",clf.best_params_)
+
+# 绝对不能把测试数据用在交叉验证的过程中
+# 测试数据的作用永远是做最后一步的测试
+# 看是否模型满足上线的标准
+# 但绝对不能参与到模型的训练。
