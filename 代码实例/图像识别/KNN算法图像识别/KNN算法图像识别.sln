@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "KNN算法图像识别", "KNN算法图像识别.pyproj", "{B31AA59B-D008-434C-8458-C541F9B5DABB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B31AA59B-D008-434C-8458-C541F9B5DABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B31AA59B-D008-434C-8458-C541F9B5DABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {787F39FF-76CB-47C3-ACF5-7BE84B84C698}
+	EndGlobalSection
+EndGlobal
